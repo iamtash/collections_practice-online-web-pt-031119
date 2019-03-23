@@ -34,3 +34,7 @@ def kesha_maker(string_array)
     name
   end
 end
+
+def find_a(string_array)
+  string_array.select {|word| word[0] == 'a'}
+end
