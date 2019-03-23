@@ -44,7 +44,9 @@ def sum_array(integer_array)
 end
 
 def add_s(string_array)
+  index = 0
   string_array.collect do |word|
-    word += 's' unless string_array[1]
+    word += 's' unless index == 1
+    index += 1
   end
 end
