@@ -36,6 +36,5 @@ def kesha_maker(string_array)
 end
 
 def find_a(string_array)
-  binding.pry
   string_array.select {|word| word[0] == 'a'}
 end
