@@ -34,5 +34,5 @@ def kesha_maker(string_array)
     name[2] = '$'
     name
   end
-  string_array
+  binding.pry
 end
