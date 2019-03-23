@@ -30,5 +30,8 @@ end
 
 def kesha_maker(string_array)
   binding.pry
-  string_array.collect {|name| name[2] = '$'}
+  string_array.collect do |name|
+    name[2] = '$'
+    name
+  end
 end
