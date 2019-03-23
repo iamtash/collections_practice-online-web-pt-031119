@@ -40,6 +40,5 @@ def find_a(string_array)
 end
 
 def sum_array(integer_array)
-  binding.pry
-  integer_array.join('+')
+  eval integer_array.join('+')
 end
