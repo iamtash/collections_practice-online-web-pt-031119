@@ -27,3 +27,7 @@ end
 def reverse_array(integers_array)
   integers_array.reverse
 end
+
+def kesha_maker(string_array)
+  
+end
