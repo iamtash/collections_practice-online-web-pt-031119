@@ -38,3 +38,7 @@ end
 def find_a(string_array)
   string_array.select {|word| word[0] == 'a'}
 end
+
+def sum_array(integer_array)
+  eval integer_array.join('+')
+end
