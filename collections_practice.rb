@@ -25,5 +25,5 @@ def swap_elements(string_array)
 end
 
 def reverse_array(integers_array)
-  
+  integers_array.reverse
 end
