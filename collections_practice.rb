@@ -42,3 +42,9 @@ end
 def sum_array(integer_array)
   eval integer_array.join('+')
 end
+
+def add_s(string_array)
+  string_array.collect do |word|
+    word += 's' unless string_array[1]
+  end
+end
