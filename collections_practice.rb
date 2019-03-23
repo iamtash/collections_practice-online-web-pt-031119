@@ -23,3 +23,7 @@ end
 def swap_elements(string_array)
   string_array.insert(2, string_array.delete_at(1))
 end
+
+def reverse_array(integers_array)
+  
+end
